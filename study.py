@@ -6,7 +6,7 @@ def find(test, keyword):
 
 def main():
     st.title("부산 남구 병원 현황")
-    df=pd.read_csv("/Users/my/Desktop/부산광역시 남구_의료기관 현황_20240115.csv",encoding="cp949")
+    df=pd.read_csv("부산광역시 남구_의료기관 현황_20240115.csv",encoding="cp949")
     #동 찾기
     dong=['대연동','감만동','용당동','용호동','문현동']
     selectDong=st.multiselect("찾으시는 동을 선택하세요",dong)
